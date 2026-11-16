@@ -1,1 +1,6 @@
 Data/
+.env
+secrets.sh
+mlruns/
+__pycache__/
+.ipynb_checkpoints/
