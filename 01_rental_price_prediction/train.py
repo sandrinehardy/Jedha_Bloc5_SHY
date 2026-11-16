@@ -158,7 +158,7 @@ for name, (regressor, param_grid) in models.items():
 
 print(f"\nGagnant : {best_name} (test MAE {best_test_mae:.2f})")
 
-# --- Reentrainement du gagnant sur TOUTES les donnees ---
+# --- Reentrainement du meilleur modele sur l'ensemble des donnees ---
 final = Pipeline([("preprocessor", preprocessor), ("regressor", best_regressor)])
 final.set_params(**best_params)
 
