@@ -1,0 +1,6 @@
+fastapi[standard]
+mlflow==3.16.1
+boto3
+scikit-learn==1.9.1
+pandas==3.0.6
+python-dotenv
