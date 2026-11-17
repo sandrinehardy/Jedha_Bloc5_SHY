@@ -26,7 +26,7 @@ mlflow.set_experiment(EXPERIMENT)
 client = MlflowClient()
 
 # --- Donnees ---
-DATA = Path(__file__).resolve().parent.parent / "Data" / "get_around_pricing_project.csv"
+DATA = Path(__file__).resolve().parent / "data" / "get_around_pricing_project.csv"
 df = pd.read_csv(DATA, index_col=0)
 
 target = "rental_price_per_day"
